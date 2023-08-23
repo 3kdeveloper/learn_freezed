@@ -12,8 +12,8 @@ A flutter project for learning how to use freed inside flutter apps.
 		"prefix": "fcls",
 		"body": [
 			"@freezed",
-			"abstract class ${1:name} with _$${1:name}{",
-			"  const factory ${1:name}({${2:code}}) = _${1:name};",
+			"class ${2:name} with _$${2:name}{",
+			"  const factory ${2:name}() = _${2:name};",
 			"}"
 		],
 		"description": "Freezed Data Class"
@@ -28,6 +28,6 @@ A flutter project for learning how to use freed inside flutter apps.
 <- Code Template ->
 
 @freezed
-class $name$ with _$$$name$ {
-  const factory $name$({$END$}) = _$name$;
+class $PERSON$ with _$$$PERSON$ {
+  const factory $PERSON$($END$) = _$$$PERSON$;
  }

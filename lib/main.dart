@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:learn_freezed/blocs/counterBloc/counter_bloc.dart';
 
-import 'blocs/counter_bloc.dart';
 import 'screens/counter_screen.dart';
 
 void main() => runApp(const MyApp());
